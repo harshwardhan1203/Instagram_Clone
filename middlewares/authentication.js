@@ -14,3 +14,5 @@ function autheticateUser(req, res, next) {
     next();
   });
 }
+
+module.exports = autheticateUser;
